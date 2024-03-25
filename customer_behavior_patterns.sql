@@ -1,13 +1,9 @@
-/*Hello! In this analysis we will do a complex query of the Sakila DB
-It will involve aggregations, subqueries, conditional logic, and data manipulation functions
-It will require careful consideration of the database schema and complex SQL querying skills to generate accurate and insightful results.
-Welcome! */
 
-
-use sakila;
 
 /* 1. Calculate the average number of days between consecutive rentals for each customer who has rented at least five films.
 Identify customers who have shown consistent rental activity and those who have irregular rental patterns.*/
+
+use sakila;
 
 #(A) get customers with > 5 rentals
 SELECT 
